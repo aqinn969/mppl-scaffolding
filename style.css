@@ -1,129 +1,130 @@
+/* CSS FILE */
+/* DATA BARANG */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #dedede;
+  background: #e3e3e3;
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #f7f7f7;
+  border-right: 1px solid #b8b8b8;
   position: fixed;
   top: 0;
   left: 0;
-  width: 235px;      /* sebelumnya 260px */
-  height: 100%;
-  background: #fff;
-  border-right: 1px solid #bfbfbf;
-  padding-top: 15px;
+  padding-top: 10px;
 }
-
 .sidebar-header {
-  padding-left: 20px;
-  font-size: 24px;
+  padding: 10px;
+  text-align: center;
 }
-
-.brand {
-  padding: 12px 20px;
-  font-size: 17px;
-  border-bottom: 1px solid #ccc;
-}
-
-.menu-item {
-  padding: 10px 20px;
-  border-bottom: 1px solid #ccc;
+.menu-icon {
+  font-size: 22px;
   cursor: pointer;
-  font-size: 14.5px;
 }
-
+.brand {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.menu-item {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.menu-item:hover,
 .menu-item.active {
-  background: #eee;
+  background: #d7d7d7;
 }
-
 .submenu {
-  padding-left: 35px;
-  background: #f5f5f5;
-  border-bottom: 1px solid #ccc;
+  margin-left: 30px;
+  font-size: 14px;
 }
-
 .submenu div {
-  padding: 8px 0;
-  font-size: 13.5px;
+  padding: 5px 0;
 }
 
-/* Header */
+/* HEADER */
 .header {
-  position: fixed;
-  left: 235px;      /* sesuaikan sidebar */
-  top: 0;
-  right: 0;
-  height: 70px;     /* sedikit diperkecil */
-  background: #fff;
-  border-bottom: 1px solid #bfbfbf;
+  margin-left: 200px;
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #b8b8b8;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  align-items: center;
+  padding: 0 20px;
 }
-
-.header .profile {
-  width: 48px;
-  height: 48px;
+.profile {
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
 }
 
-/* Content */
+/* CONTENT */
 .content {
-  margin-left: 235px;
-  margin-top: 90px;
-  padding: 35px 60px;
+  margin-left: 200px;
+  padding: 20px;
 }
-
 .breadcrumb {
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
-
 .title {
-  font-size: 26px;
-  font-weight: bold;
-  margin-bottom: 22px;
+  margin-top: 0;
 }
-
-/* Form Area */
-.form-container {
-  background: #dedede;
-  padding: 25px;
-  width: 690px;     /* sebelumnya 750px */
-  border: 1px solid #bfbfbf;
-}
-
-label {
-  display: block;
-  margin-top: 18px;
-  font-size: 15px;
-}
-
-.input {
-  width: 350px;     /* sebelumnya 380px */
-  padding: 7px;
-  margin-top: 6px;
-  border: 1px solid black;
-  font-size: 14.5px;
-}
-
-.textarea {
-  width: 520px;     /* sebelumnya 550px */
-  height: 135px;    /* sebelumnya 150px */
-  padding: 10px;
-  margin-top: 6px;
-  border: 1px solid black;
-  font-size: 14.5px;
-}
-
 .btn {
-  margin-top: 22px;
-  padding: 9px 26px;
-  background: #fff;
-  border: 1px solid black;
+  padding: 8px 18px;
+  background: #ddd;
+  border: 1px solid #555;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* TABLE */
+.table-container {
+  width: 80%;
+  background: white;
+  border: 1px solid #777;
+  overflow-y: scroll;
+  max-height: 450px;
+ 
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
   font-size: 14px;
 }
+th, td {
+  border: 1px solid #777;
+  padding: 8px;
+  text-align: center;
+}
+
+.aksi-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #444;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  cursor: pointer;
+  background: #eee;
+}
+.submenu-item {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.submenu-item:hover {
+  background: #dcdcdc;
+}
+
+/* SET TAMBAH */ 
+
