@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #dedede;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 235px;      /* sebelumnya 260px */
+  height: 100%;
+  background: #fff;
+  border-right: 1px solid #bfbfbf;
+  padding-top: 15px;
+}
+
+.sidebar-header {
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.brand {
+  padding: 12px 20px;
+  font-size: 17px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14.5px;
+}
+
+.menu-item.active {
+  background: #eee;
+}
+
+.submenu {
+  padding-left: 35px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.submenu div {
+  padding: 8px 0;
+  font-size: 13.5px;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  left: 235px;      /* sesuaikan sidebar */
+  top: 0;
+  right: 0;
+  height: 70px;     /* sedikit diperkecil */
+  background: #fff;
+  border-bottom: 1px solid #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.header .profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* Content */
+.content {
+  margin-left: 235px;
+  margin-top: 90px;
+  padding: 35px 60px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+/* Form Area */
+.form-container {
+  background: #dedede;
+  padding: 25px;
+  width: 690px;     /* sebelumnya 750px */
+  border: 1px solid #bfbfbf;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  font-size: 15px;
+}
+
+.input {
+  width: 350px;     /* sebelumnya 380px */
+  padding: 7px;
+  margin-top: 6px;
+  border: 1px solid black;
+  font-size: 14.5px;
+}
+
+.textarea {
+  width: 520px;     /* sebelumnya 550px */
+  height: 135px;    /* sebelumnya 150px */
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid black;
+  font-size: 14.5px;
+}
+
+.btn {
+  margin-top: 22px;
+  padding: 9px 26px;
+  background: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 14px;
+}
